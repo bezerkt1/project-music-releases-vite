@@ -6,7 +6,6 @@ import "./album.css";
 // added some extra props for stretch goals
 export const Album = ({
   name,
-  album_type,
   artists,
   external_urls,
   images,
@@ -15,7 +14,7 @@ export const Album = ({
 }) => {
   return (
     <div className="album">
-      <CoverImage name={name} image={images[0].url} spotify={external_urls.spotify}/>
+      <CoverImage name={name} image={images[0].url} spotify={external_urls.spotify} total_tracks={total_tracks} release_date={release_date}/>
       <AlbumName name={name} />
       <ArtistName artists={artists} />
     </div>

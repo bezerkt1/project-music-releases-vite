@@ -1,0 +1,53 @@
+.btnPlaylists {
+  background-color: transparent;
+  position: sticky;
+  z-index: 1;
+  border: none;
+  top: 10px;
+  left: 10px;
+}
+
+.btnPlaylists > svg {
+  fill: white;
+}
+
+#playlists {
+  position: fixed;
+  background-color: #2a3439;
+  height: 100%;
+  width: 0;
+  top: 0;
+  z-index: 2;
+  overflow: auto;
+  transition: 1s ease;
+}
+
+.playlistList {
+  display: flex;
+  flex-direction: column;
+}
+
+.playlist {
+  margin-left: 10px;
+}
+
+.playlist > a >img {
+  height: 64px;
+  display: inline-block;
+}
+
+.playlistInfo {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.playlistName {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.playlistTracks {
+  color: #a0a0a0;
+  font-size: 14px;
+}
