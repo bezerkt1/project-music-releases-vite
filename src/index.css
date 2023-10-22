@@ -13,13 +13,11 @@ code {
 }
 
 body {
-  background-color: #000000;
+  background-color: black;
   font-family: Helvetica;
-  color: #ffffff;
-  margin: 0;
+  color: white;
 }
 
-h1 {
+h2 {
   text-align: center;
 }
-

@@ -470,6 +470,26 @@
             "name": "Caroline Polachek",
             "type": "artist",
             "uri": "spotify:artist:4Ge8xMJNwt6EEXOzVXju9a"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4PvnP3yCzrT289cX3wCdOx"
+            },
+            "href": "https://api.spotify.com/v1/artists/4PvnP3yCzrT289cX3wCdOx",
+            "id": "4PvnP3yCzrT289cX3wCdOx",
+            "name": "Yung Hurn",
+            "type": "artist",
+            "uri": "spotify:artist:4PvnP3yCzrT289cX3wCdOx"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/21H6paZGGR6dQpVmAqbdzV"
+            },
+            "href": "https://api.spotify.com/v1/artists/21H6paZGGR6dQpVmAqbdzV",
+            "id": "21H6paZGGR6dQpVmAqbdzV",
+            "name": "1986zig",
+            "type": "artist",
+            "uri": "spotify:artist:21H6paZGGR6dQpVmAqbdzV"
           }
         ],
         "available_markets": [

@@ -1,7 +1,7 @@
-export const AlbumName = ({name}) => {
+export const AlbumName = ({ name, url }) => {
   return (
     <div class="album-name">
-      {name}
+      <a href={url}>{name}</a>
     </div>
   );
 };

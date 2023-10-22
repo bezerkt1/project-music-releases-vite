@@ -10,12 +10,18 @@ export const Album = ({
   external_urls,
   images,
   release_date,
-  total_tracks
+  total_tracks,
 }) => {
   return (
     <div className="album">
-      <CoverImage name={name} image={images[0].url} spotify={external_urls.spotify} total_tracks={total_tracks} release_date={release_date}/>
-      <AlbumName name={name} />
+      <CoverImage
+        name={name}
+        image={images[0].url}
+        spotify={external_urls.spotify}
+        total_tracks={total_tracks}
+        release_date={release_date}
+      />
+      <AlbumName name={name} url={external_urls.spotify} />
       <ArtistName artists={artists} />
     </div>
   );
